@@ -1,3 +1,5 @@
+(function () {
+   
 var task1 = {
 	render: function(){
 		document.getElementById("screenX").textContent = window.screenX;
@@ -14,10 +16,11 @@ var task1 = {
     devInfo: function() {
         var btnDev = document.getElementById("dev-info");
         btnDev.addEventListener("click", function(){
-            
+            document.getElementById("dev-info-container").innerHTML = "Angelina Zaretskaya</br>IT Student</br><a href='www.github.com/ZarLina'>www.github.com/ZarLina"
         });
     }
 }
 task1.render();
 task1.resize();
 task1.devInfo();
+}) ();
