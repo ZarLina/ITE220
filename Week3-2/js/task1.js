@@ -16,7 +16,7 @@ var task1 = {
     devInfo: function() {
         var btnDev = document.getElementById("dev-info");
         btnDev.addEventListener("click", function(){
-            document.getElementById("dev-info-container").innerHTML = "Angelina Zaretskaya</br>IT Student</br><a href='www.github.com/ZarLina'>www.github.com/ZarLina"
+            document.getElementById("dev-info-container").innerHTML = "Angelina Zaretskaya</br>IT Student</br><a target='_blank' href='http://www.github.com/ZarLina'>www.github.com/ZarLina</a>"
         });
     }
 }
